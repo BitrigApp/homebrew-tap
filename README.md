@@ -1,23 +1,24 @@
 # Bitrig Homebrew Tap
 
-Homebrew tap for Bitrig command-line tools.
+Homebrew tap for Bitrig.
 
-## Install
-
-```bash
-brew tap BitrigApp/tap
-brew install xcdocs
-brew install --cask bitrig
-```
-
-Or install directly without tapping first:
+## Install Bitrig
 
 ```bash
-brew install BitrigApp/tap/xcdocs
 brew install --cask BitrigApp/tap/bitrig
 ```
 
-## Available Packages
+Or tap the repository first:
+
+```bash
+brew tap BitrigApp/tap
+brew install --cask bitrig
+```
+
+## Other Packages
 
 - `xcdocs`: Search local Apple developer documentation from the command line.
-- `bitrig`: Build and ship native Swift apps with AI.
+
+  ```bash
+  brew install BitrigApp/tap/xcdocs
+  ```
