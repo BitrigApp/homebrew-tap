@@ -2,17 +2,16 @@
 
 Homebrew tap for Bitrig.
 
+Homebrew 7 loads formulae and casks only from taps you trust, so trust this tap first:
+
+```bash
+brew trust BitrigApp/tap
+```
+
 ## Install Bitrig
 
 ```bash
 brew install --cask BitrigApp/tap/bitrig
-```
-
-Or tap the repository first:
-
-```bash
-brew tap BitrigApp/tap
-brew install --cask bitrig
 ```
 
 ## Other Packages
